@@ -1,0 +1,11 @@
+button{
+    position: absolute;
+    top: 15px;
+    left: 1375px;
+    transition: transform 300ms ease;
+    z-index: 2;
+}
+
+button:active{
+    transform: scale(0.95);
+}
