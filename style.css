@@ -2,10 +2,31 @@ button{
     position: absolute;
     top: 15px;
     left: 1375px;
+    display: block;
+    margin: 3px auto;
+    padding: 6px 18px;
+    border: 2px solid black;
+    background: aquamarine;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
     transition: transform 300ms ease;
     z-index: 2;
 }
 
 button:active{
     transform: scale(0.95);
+}
+button:hover{
+    background: rgb(0, 248, 207);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-decoration:underline;
+    color: rgb(91, 72, 160);
 }
